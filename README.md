@@ -22,3 +22,16 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Build Image
+
+```
+docker build -t gister-ui .
+```
+
+
+### Run the image
+
+```
+docker run --rm -p 8080:80 -it gister-ui
+```
